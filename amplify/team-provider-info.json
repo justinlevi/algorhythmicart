@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-algorhythmicart-staging-10405-authRole",
+      "UnauthRoleArn": "arn:aws:iam::795480817496:role/amplify-algorhythmicart-staging-10405-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::795480817496:role/amplify-algorhythmicart-staging-10405-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-algorhythmicart-staging-10405-deployment",
+      "UnauthRoleName": "amplify-algorhythmicart-staging-10405-unauthRole",
+      "StackName": "amplify-algorhythmicart-staging-10405",
+      "StackId": "arn:aws:cloudformation:us-east-1:795480817496:stack/amplify-algorhythmicart-staging-10405/1d18d5a0-bd21-11ec-8b80-12f75704d823",
+      "AmplifyAppId": "d1f966yv23m31a"
+    },
+    "categories": {
+      "auth": {
+        "algorhythmicart": {}
+      }
+    }
+  }
+}
