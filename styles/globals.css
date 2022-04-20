@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* const theme = {
+  name: "pretty-princess",
+  tokens: {
+    colors: {
+      background: {
+        primary: { value: "hotpink" },
+      },
+    },
+  },
+}; */
+
+[data-amplify-authenticator]: {
+  --amplify-colors-background-primary: "hotPink";
+  --amplify-colors-font-primary: #333;
+  /* you can also use references: */
+  --amplify-colors-font-secondary: var(--amplify-colors-neutral-60);
+}
+
+[data-amplify-theme="my-theme"].disco {
+  --amplify-colors-background-primary: #ff00ff;
+}
